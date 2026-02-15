@@ -1,0 +1,32 @@
+# Unneeded editors
+vim-tiny
+
+# Documentation / man pages
+man-db
+manpages
+info
+
+# Printing
+cups
+cups-daemon
+cups-client
+avahi-daemon
+
+# Bluetooth stack (Pi 4 rarely uses it in robotics - uncomment if need to remove)
+# bluez
+# bluetooth
+
+# Legacy networking tools
+ppp
+pppoeconf
+
+# Localization & iw full tools
+iso-codes
+
+# Misc tools
+groff-base
+install-info
+
+# Wolfram / scratch (present on full images but harmless on Lite)
+scratch
+wolfram-engine

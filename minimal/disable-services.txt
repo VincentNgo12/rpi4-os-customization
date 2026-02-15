@@ -1,0 +1,11 @@
+apt-daily.service
+apt-daily-upgrade.service
+apt-daily.timer
+apt-daily-upgrade.timer
+motd-news.service
+motd-news.timer
+# bluetooth.service
+hciuart.service
+triggerhappy.service
+rpi-eeprom-update.service
+ssh-switch-user.service
