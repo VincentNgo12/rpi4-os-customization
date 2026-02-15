@@ -1,0 +1,24 @@
+# --- CUSTOM SETTINGS BELOW ---
+# Added by Raspberry Pi OS Lite customization
+
+# Enable I2C
+dtparam=i2c_arm=on
+
+# Enable I2S
+#dtparam=i2s=on
+
+# Enable SPI
+dtparam=spi=on
+
+# Enable camera (libcamera stack)
+start_x=1
+gpu_mem=256
+
+# Device Tree Overlays
+dtoverlay=i2c-gpio,bus=3
+
+# Custom overlays directory
+dtoverlay=robot-overlay
+
+# --- END CUSTOM SETTINGS ---
+EOF

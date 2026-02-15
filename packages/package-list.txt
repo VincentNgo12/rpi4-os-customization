@@ -1,0 +1,25 @@
+# Base utilities
+wget
+curl
+git
+vim
+htop
+i2c-tools
+python3
+python3-pip
+
+# Camera stack
+libcamera-apps
+libcamera-tools
+
+# Audio
+alsa-utils
+pulseaudio
+
+# Networking
+net-tools
+
+# Optional robotics tools
+ffmpeg
+python3-opencv
+python3-numpy

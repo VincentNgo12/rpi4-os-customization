@@ -1,0 +1,21 @@
+# OS customization repo ignore list
+
+# Logs
+*.log
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Temp build files
+tmp/
+scratch/
+*.swp
+
+# System-generated
+.DS_Store
+
+# SD card images (if you export them)
+*.img
+*.zip
+*.tar.gz

@@ -1,0 +1,8 @@
+# Kernel modules to load at boot
+
+i2c-dev
+i2c-bcm2835
+spi-bcm2835
+bcm2835-v4l2
+snd-bcm2835
+uvcvideo

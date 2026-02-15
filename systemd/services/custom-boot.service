@@ -1,0 +1,11 @@
+[Unit]
+Description=Custom Boot Script
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/custom-boot.sh
+StandardOutput=journal
+
+[Install]
+WantedBy=multi-user.target
